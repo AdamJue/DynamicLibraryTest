@@ -2,7 +2,7 @@
 using namespace std;
 #include "examples/test1/stu.h"
 
-#pragma comment(lib, "simpleDll.lib")
+// #pragma comment(lib, "simpleDll.lib")
 
 int main()
 {
