@@ -16,9 +16,6 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE _DLL_EXPORTS)
 
 #target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
 
-if (NOT CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    target_compile_options( PUBLIC "-fpic")
-endif()
 
 target_include_directories(${PROJECT_NAME}  PUBLIC "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>")
 
