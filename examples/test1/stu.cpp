@@ -2,7 +2,6 @@
 // Created by yunti on 24-7-31.
 //
 
-#define _DLL_EXPORTS
 #include "stu.h"
 #include <iostream>
 using  namespace std;
